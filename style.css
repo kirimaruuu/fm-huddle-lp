@@ -302,12 +302,12 @@ section {
   }
 
   .card__item {
-    padding: 3.5rem 2.5rem;
+    padding: 3.5rem 4rem;
     flex-direction: row-reverse;
   }
 
   .card__img {
-    width: 100%;
+    max-width: 40%;
     padding-bottom: 0;
   }
 
@@ -408,9 +408,9 @@ footer {
 }
 
 .footer__nav__img {
-    stroke: #fff;
-    fill: #fff;
-  }
+  /* color: #fff; */
+  fill: #fff;
+}
 
 .nav__info__body {
   display: flex;
@@ -423,6 +423,9 @@ footer {
 .nav__info__body > img {
   width: 2rem;
   height: 2rem;
+}
+
+.nav__info__body > p {
 }
 
 .nav__list {
@@ -506,7 +509,6 @@ footer {
   }
 
   
-
 }
 
 .attribution {
