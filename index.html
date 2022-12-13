@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-
     <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
   </head>
   <body>
@@ -20,6 +19,7 @@
       </nav>
     </header>
     <main>
+      <!-- hero -->
       <section class="hero">
         <div class="container hero__container">
           <div class="hero__body">
@@ -34,11 +34,114 @@
           </div>
         </div>
       </section>
+      <!-- card section -->
+      <section class="card">
+        <div class="container card__container">
+          <!-- card-1 -->
+          <div class="card__item">
+            <img src="./images/illustration-grow-together.svg" alt="" class="card__img" />
+
+            <div class="card__body">
+              <h3 class="card__title">Grow Together</h3>
+              <p class="card__paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+            </div>
+          </div>
+
+          <!-- card-2 -->
+          <div class="card__item card__item--reverse">
+            <img src="./images/illustration-flowing-conversation.svg" alt="" class="card__img" />
+
+            <div class="card__body card__item--reverse--body">
+              <h3 class="card__title">Flowing Conversations</h3>
+              <p class="card__paragraph">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+            </div>
+          </div>
+
+          <!-- card-3  -->
+          <div class="card__item">
+            <img src="./images/illustration-your-users.svg" alt="" class="card__img" />
+
+            <div class="card__body">
+              <h3 class="card__title">Your Users</h3>
+              <p class="card__paragraph">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+            </div>
+          </div>
+
+          <!-- cta card -->
+        </div>
+      </section>
     </main>
 
-    Grow Together Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. Flowing Conversations You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow. Your Users It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately. Ready To Build Your Community? Get Started For Free Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua +1-543-123-4567 example@huddle.com About Us What We Do FAQ Career Blog Contact Us &copy; Copyright 2018 Huddle. All rights reserved.
-
     <footer>
+      <nav class="footer__nav container">
+        <div class="card__item cta__card">
+          <h3 class="card__title cta__title">Ready To Build Your Community?</h3>
+          <a class="btn btn--primary btn--cta"> Get Started For Free</a>
+        </div>
+        <a href="#" class="nav__logo footer__nav__logo">
+          <img src="./images/logo.svg" alt="" class="footer__nav__img" />
+        </a>
+        <div class="nav__info__container">
+          <div class="nav_info">
+            <div class="nav__info--container">
+              <div class="nav__info__body">
+                <img src="./images/icon-location.svg" alt="" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+              </div>
+              <div class="nav__info__body">
+                <img src="./images/icon-phone.svg" alt="" />
+                <p>+1-543-123-4567</p>
+              </div>
+              <div class="nav__info__body">
+                <img src="./images/icon-email.svg" alt="" />
+                <p>example@huddle.com</p>
+              </div>
+            </div>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__list__item">
+              <a href="" class="nav__list__link">About Us</a>
+            </li>
+            <li class="nav__list__item">
+              <a href="" class="nav__list__link">What we do</a>
+            </li>
+            <li class="nav__list__item">
+              <a href="" class="nav__list__link">FAQ</a>
+            </li>
+          </ul>
+          <ul class="nav__list nav__list-last">
+            <li class="nav__list__item">
+              <a href="" class="nav__list__link">Career</a>
+            </li>
+            <li class="nav__list__item">
+              <a href="" class="nav__list__link">Blog</a>
+            </li>
+            <li class="nav__list__item">
+              <a href="" class="nav__list__link">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="sm__list">
+            <li class="sm__list__item">
+              <a href="" class="sm__list__link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+            </li>
+            <li class="sm__list__item">
+              <a href="" class="sm__list__link">
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </li>
+            <li class="sm__list__item">
+              <a href="" class="sm__list__link">
+                <i class="ri-instagram-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="copy-right">
+          <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+        </div>
+      </nav>
       <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.</p>
     </footer>
   </body>
